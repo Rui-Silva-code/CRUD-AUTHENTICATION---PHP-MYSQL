@@ -77,10 +77,10 @@ Status: Academic project / technical demonstration
    index.php            -> Entry point
    login.php            -> Login page
    processa_login.php   -> Login processing
-   pagina_de_registro.html
-   processa_registro.php
-   perfil_utilizador.php
-   perfil_admin.php
+   pagina_de_registro.html  -> Registry page
+   processa_registro.php      -> Registry processing
+   perfil_utilizador.php      -> User Profile
+   perfil_admin.php      -> Admin Profile
    editar_*.php         -> Edit operations
    excluir_*.php        -> Delete operations
 
