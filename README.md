@@ -1,62 +1,107 @@
-# Final Project - PHP
+# Final Project – PHP & MySQL
 
-Descrição curta
-Projeto final do curso que demonstra conhecimentos em PHP e MySQL: autenticação básica, operações CRUD e integração entre front-end (HTML/CSS/Bootstrap) e back-end (PHP).
+## Visão geral
+Projeto final desenvolvido no âmbito do curso de Web Development, com o objetivo de demonstrar competências práticas em desenvolvimento back-end com **PHP** e **MySQL**, bem como a integração com o front-end.
 
-Estado: Projeto académico / demonstração
+O projeto inclui **autenticação de utilizadores**, **operações CRUD** e uma estrutura básica organizada seguindo boas práticas iniciais.
 
-Tecnologias
+**Estado:** Projeto académico / demonstração técnica
+
+---
+
+## O que este projeto demonstra
+- Desenvolvimento back-end com PHP (programação procedural / organizada)
+- Integração PHP + MySQL através de **PDO**
+- Implementação de autenticação básica com sessões
+- Operações CRUD completas
+- Validação de dados no front-end e no back-end
+- Estruturação de um pequeno projeto full-stack
+- Boas práticas básicas de segurança e organização de código
+
+---
+
+## Tecnologias utilizadas
 - PHP 7.4+
 - MySQL / MariaDB
-- HTML5, CSS3, JavaScript (vanilla)
-- (Opcional) Bootstrap 4/5
+- HTML5, CSS3
+- JavaScript (vanilla)
+- Bootstrap 4/5
 
-Requisitos
-- PHP 7.4+ (extensão PDO recomendada)
-- MySQL 5.7+ (ou MariaDB)
-- XAMPP / MAMP / LAMP / Docker
+---
 
-Instalação e execução local
-1. Clona o repositório:
-   git clone https://github.com/Rui-Silva-code/Final-Project-PHP.git
-2. Copia o ficheiro de configuração de exemplo e edita:
-   cp config.example.php config.php
-   (preenche as credenciais locais)
-3. Importa o esquema de exemplo:
-   mysql -u teu_user -p nome_da_bd < sql/example_db.sql
-4. Corre o servidor local:
-   php -S localhost:8000
-   Abre http://localhost:8000
-
-Funcionalidades implementadas
-- Login / logout simples (sessões PHP)
-- CRUD de [entidade] (ex.: produtos, posts)
-- Validação básica no front-end (JS) e back-end (PHP)
+## Funcionalidades implementadas
+- Login e logout de utilizadores (sessões PHP)
+- CRUD de entidades (ex.: utilizadores / produtos / posts)
+- Validação básica de formulários (JavaScript e PHP)
 - Layout responsivo com Bootstrap
+- Separação básica entre lógica, apresentação e configuração
+
+---
+
+## Requisitos
+- PHP 7.4+ (extensão **PDO** recomendada)
+- MySQL 5.7+ ou MariaDB
+- Ambiente local (XAMPP / MAMP / LAMP / Docker)
+
+---
+
+## Instalação e execução local
+1. Clonar o repositório:
+   ```bash
+   git clone https://github.com/Rui-Silva-code/Final-Project-PHP.git
+2. Criar o ficheiro de configuração:
+   ````bash
+   cp config.example.php config.php
+3. Importar a base de dados de exemplo:
+   ````bash
+   mysql -u teu_user -p nome_da_bd < sql/example_db.sql
+4. Iniciar o servidor local:
+   ````bash
+   php -S localhost:8000
+5. Abrir no browser:
+   ````bash
+   http://localhost:8000
+
+---
+
+Estrutura do projeto (resumo)
+
+   /assets        -> CSS, JavaScript e imagens
+   /sql           -> Scripts SQL e dados de exemplo
+   /app (ou /src) -> Lógica da aplicação em PHP
+   config.example.php
+   index.php
+
+---
 
 Limitações conhecidas
-- Sem hashing avançado de passwords em versões antigas — recomenda-se password_hash()
-- Sem recuperação de password / sem envio de e-mail
-- Sem testes automatizados
 
-Segurança / boas práticas
-- Não comitar config.php com credenciais. Usa config.example.php.
-- Se já comitaste credenciais, rotaciona as passwords e limpa o histórico.
+   - Projeto sem testes automatizados
+   - Não inclui recuperação de password ou envio de e-mails
+   - Algumas funcionalidades de segurança podem ser aprofundadas
 
-Estrutura (resumo)
-- index.php
-- config.example.php
-- /sql/example_db.sql
-- /assets/ (CSS, JS, imagens)
-- /app/ ou /src/ (lógica PHP)
+---
 
-Próximos passos sugeridos
-- Implementar password_hash + prepared statements (se não houver)
-- Mover credenciais para variáveis de ambiente
-- Adicionar CI e testes básicos
+Segurança e boas práticas
 
-Licença
-MIT — ver LICENSE
+   - Credenciais sensíveis não são comitadas no repositório
+   - Uso de ficheiro de configuração de exemplo (config.example.php)
+   - Separação entre código e dados sensíveis
+   - Preparado para evolução para password_hash() e melhorias de segurança
 
-Contacto
-Rui Silva — https://github.com/Rui-Silva-code
+---
+
+Próximos passos / melhorias futuras
+
+   - Implementar password_hash() e password_verify()
+   - Reforçar uso de prepared statements
+   - Mover credenciais para variáveis de ambiente
+   - Adicionar testes básicos
+   - Melhorar organização do código (MVC simples)
+
+---
+
+Autor
+
+Rui Silva
+GitHub: https://github.com/Rui-Silva-code
