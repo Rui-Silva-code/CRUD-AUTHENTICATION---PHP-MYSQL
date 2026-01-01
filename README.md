@@ -70,19 +70,19 @@ Status: Academic project / technical demonstration
 ---
 
 ## Project structure (summary)
-/css/                -> Stylesheets
-/imagens/            -> Images
-casopratico.sql      -> Database schema
-basedados.php        -> Database connection
-index.php            -> Entry point
-login.php            -> Login page
-processa_login.php   -> Login processing
-pagina_de_registro.html
-processa_registro.php
-perfil_utilizador.php
-perfil_admin.php
-editar_*.php         -> Edit operations
-excluir_*.php        -> Delete operations
+   /css/                -> Stylesheets
+   /imagens/            -> Images
+   casopratico.sql      -> Database schema
+   basedados.php        -> Database connection
+   index.php            -> Entry point
+   login.php            -> Login page
+   processa_login.php   -> Login processing
+   pagina_de_registro.html
+   processa_registro.php
+   perfil_utilizador.php
+   perfil_admin.php
+   editar_*.php         -> Edit operations
+   excluir_*.php        -> Delete operations
 
 ---
 
