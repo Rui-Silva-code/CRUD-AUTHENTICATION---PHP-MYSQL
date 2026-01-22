@@ -72,21 +72,21 @@ Status: Academic project / technical demonstration
 ---
 
 ## Project structure (summary)
-   ````bash
-   /css/                -> Stylesheets
-   /imagens/            -> Images
-   casopratico.sql      -> Database schema
-   basedados.php        -> Database connection
-   index.php            -> Entry point
-   login.php            -> Login page
-   processa_login.php   -> Login processing
-   pagina_de_registro.html  -> Registry page
-   processa_registro.php      -> Registry processing
-   perfil_utilizador.php      -> User Profile
-   perfil_admin.php      -> Admin Profile
-   editar_*.php         -> Edit operations
-   excluir_*.php        -> Delete operations
-
+```bash
+/css/                    -> Stylesheets
+/imagens/                -> Images
+casopratico.sql          -> Database schema
+basedados.php            -> Database connection
+index.php                -> Entry point
+login.php                -> Login page
+processa_login.php       -> Login processing
+pagina_de_registro.html  -> Registry page
+processa_registro.php    -> Registry processing
+perfil_utilizador.php    -> User Profile
+perfil_admin.php         -> Admin Profile
+editar_*.php             -> Edit operations
+excluir_*.php            -> Delete operations
+```
 ---
 
 ## Known limitations
@@ -110,9 +110,3 @@ Status: Academic project / technical demonstration
 - Move credentials to environment variables
 - Add basic automated tests
 - Improve code organization (simple MVC structure)
-
----
-
-## Author
-Rui Silva
-GitHub: https://github.com/Rui-Silva-code
