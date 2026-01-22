@@ -72,6 +72,7 @@ Status: Academic project / technical demonstration
 ---
 
 ## Project structure (summary)
+   ````bash
    /css/                -> Stylesheets
    /imagens/            -> Images
    casopratico.sql      -> Database schema
